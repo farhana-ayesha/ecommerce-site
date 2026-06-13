@@ -1,0 +1,80 @@
+  /*RESET*/
+  *{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family:Arial;
+  }
+/*NAVBAR*/
+.navbar{
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  padding:25px 40px;
+  background:#5d4e82;
+  color:white;
+  text-decoration: none;
+}
+.navbar ul{
+  display:flex;
+  gap:20px;
+  list-style:radial-gradient();
+}
+
+/*HERO SECTION*/
+.hero{
+  text-align: center;
+  padding:200px 80px;
+  background:#f4f4f4
+}
+
+
+.container{
+    display:flex;
+    justify-content: center;
+    box-sizing: border-box;
+    align-items: center;
+    gap: 10px;
+    height: 350px;
+    width: 100%;
+    background: #23500f;
+
+}
+
+  /*card design*/
+  .card {
+width:250px;
+background: white;
+padding: 25px;
+border-radius: 20px;
+text-align: center;
+box-shadow: 0 15px 25px rgba(0,0,0,0,2);
+
+  }
+
+/*image*/
+.card img {
+width:100%;
+border-radius: 15px;
+}
+img {
+width: 200px;
+height: auto;
+}
+
+/*button*/
+button{
+    background: blue;
+    color: rgb(255, 255, 255);
+    padding: 10px 15px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-top: 10px;
+
+}
+/*hover effect*/
+button:hover{
+background: darkblue;
+
+}
