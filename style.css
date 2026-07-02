@@ -11,13 +11,16 @@
   justify-content:space-between;
   align-items:center;
   padding:25px 40px;
-  background:#5d4e82;
-  color:white;
+  background:#b0aabb;
+  color:#23500f;
 }
 .navbar ul{
   display:flex;
   gap:20px;
-  list-style:radial-gradient();
+  list-style:none;
+}
+.navbar ul li{
+  text-shadow: #f1e8e8;
 }
 
 /*HERO SECTION*/
@@ -114,7 +117,6 @@
   transform: scale(1.05);
 }
 
-
 .container{
   padding:60px;
     display:flex;
@@ -127,7 +129,6 @@
     height: 650px;
     width: 100%;
     background: #23500f;
-
 }
 .box{
 
@@ -170,16 +171,14 @@ button{
 /*hover effect*/
 button:hover{
 background: darkblue;
-
 }
 
-
 footer{
-  background-color: #222;
+  background-color: hsl(0, 7%, 35%);
   color:white;
   text-align: center;
-  padding:20px;
-  margin-top: 30px;
+  padding:5px;
+  margin-top:5px;
 
 }
 
@@ -188,7 +187,6 @@ margin-bottom: 10px;
 }
 footer p{
   margin:5px 0;
-
 }
 footer a{
   color:white;
