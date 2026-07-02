@@ -118,6 +118,7 @@
 }
 
 .container{
+  margin: 10px;
   padding:60px;
     display:flex;
     flex-wrap: wrap;
@@ -172,6 +173,86 @@ button{
 button:hover{
 background: darkblue;
 }
+/*Products.html */
+
+.product-container{
+  margin:10px;
+  padding: 20px;
+  display:flex;
+  gap:30px;
+  justify-content: center;
+  flex-wrap:wrap;
+  background-color: #23500f;
+}
+.product-card{
+width: 250px;
+background: white;
+padding: 25px;
+border-radius: 10px;
+box-shadow: 0 15px 25px rgba(0,0,0,0,2);
+display: inline-block;
+grid-template-rows: auto;
+
+}
+
+/*Services.html */
+
+.services{
+  width: 80%;
+  margin: 40px auto;
+  text-align: center;
+}
+.services h2{
+  margin-bottom: 30px;
+  color: #23500f;
+}
+.services ul{
+  list-style: none;
+  padding: 0;
+}
+.services li{
+  background-color: azure;
+  margin: 15px 0;
+  padding: 20px;
+  border-radius: 0 0 10px gray;
+  font-size: 20px;
+  transition: 0.3s;
+}
+
+.services li:hover{
+  transition: translateY(-5px);
+  background-color: #23500f;
+}
+
+
+
+
+
+
+
+
+
+
+/*Contact.html */
+
+.form{
+  width:300px;
+  margin:30px auto;
+  padding:20px;
+  background-color: aliceblue;
+  border-radius: 10px;
+  box-shadow: #23500f;
+}
+.input,textarea {
+  width: 100%;
+  padding: 10px;
+  margin-top:5px;
+  margin-bottom:15px;
+}
+
+
+
+
 
 footer{
   background-color: hsl(0, 7%, 35%);
@@ -196,4 +277,7 @@ footer a{
 footer a:hover{
   color:yellow
 }
+
+
+
 
